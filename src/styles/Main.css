@@ -12,6 +12,7 @@ body {
   align-items: center;
   text-align: left;
   font-family: "Montserrat", sans-serif;
+  z-index: -1;
 }
 
 .intro {
@@ -29,4 +30,24 @@ body {
 .title {
   margin-top: 0;
   color: #02aab0;
+}
+
+.more-btn {
+  display: inline-block;
+  position: relative;
+  background-image: linear-gradient(135deg, #02aab0 0%, #02aab0 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: solid #02aab0 2px;
+  padding: 5px 3px 5px 3px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.more-btn:hover {
+  -webkit-text-fill-color: white;
+  text-decoration: none;
+  background: #02aab0;
 }
