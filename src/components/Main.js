@@ -6,7 +6,8 @@ export default class Main extends Component {
     render() {
         return (
             <section className="intro">
-                <Fade left duration={2000} delay={500} >
+                <span className="name-title-btn">
+                <Fade bottom duration={2000} delay={500} >
                    <div>
                         <h1 className="name">Shane Upchurch</h1>
                         <h2 className="title">Software Engineer</h2>
@@ -19,6 +20,7 @@ export default class Main extends Component {
                         </Link>
                     </span>
                 </Fade>
+                </span>
             </section>
         )
     }

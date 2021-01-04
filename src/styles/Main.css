@@ -1,28 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
-body {
+.intro {
   height: 100vh;
   background: url("../images/mountains.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
   z-index: -1;
+  margin-bottom: 0px;
 }
 
-.intro {
-  width: 100vw;
-  text-align: left;
-  margin-left: 10%;
+.name-title-btn {
+  margin-left: 8%;
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 60px;
   color: white;
   margin-bottom: 0;
 }
@@ -33,7 +27,7 @@ body {
 }
 
 .more-btn {
-  display: inline-block;
+  /* display: inline-block; */
   position: relative;
   background-image: linear-gradient(135deg, #02aab0 0%, #02aab0 100%);
   background-clip: text;
@@ -44,7 +38,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   z-index: 1;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  transition: all cubic-bezier(0.5, 1, 0.5, 1) 1s;
 }
 .more-btn:hover {
   -webkit-text-fill-color: white;
