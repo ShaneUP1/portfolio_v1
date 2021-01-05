@@ -2,10 +2,7 @@
   background-color: #02aab0;
   color: white;
   height: 100%;
-  margin-top: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
   padding-top: 30px;
 }
 
@@ -15,8 +12,9 @@
 
 .about-wrapper {
   display: grid;
-  grid-template-columns: 1fr min(65ch, 100%);
+  grid-template-columns: 1fr 1fr;
   padding-bottom: 15px;
+  padding: 0 10% 5% 0%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -28,14 +26,6 @@
 
 .bio-image {
   height: 350px;
-  margin-left: 15px;
-}
-
-.bio {
-  /* padding: 30px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 15px 0px 15px;
+  float: right;
+  align-self: right;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-scroll';
+import '../styles/Main.css';
 
 export default class Main extends Component {
     render() {

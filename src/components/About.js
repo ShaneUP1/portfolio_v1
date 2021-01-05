@@ -2,22 +2,23 @@ import React, { Component } from 'react';
 import Fade from 'react-awesome-reveal';
 import Title from './Title.js';
 import shane_portfolio_site from '../images/shane_portfolio_site.JPG';
-
+import '../styles/About.css';
 
 export default class About extends Component {
     render() {
         return (
-            <section className="about" >
+            <>
+            <div className="about" >
                 <Title title="ABOUT ME" />
                 <span className="about-wrapper">
-                    <Fade duration={1000} delay={500}>
+                    <Fade style={{display: "flex", justifyContent: "flex-end", paddingRight: "50px"}} duration={1000} delay={500}>
                         <div>
                         <img className="bio-image"
                             src={shane_portfolio_site}
                             alt="Shane" />
                         </div>
                     </Fade>
-                    <Fade duration={1000} delay={600}>
+                    <Fade style={{textAlign: "left", fontSize: "18px"}} duration={1000} delay={600}>
                         <div className="bio">
                         <p>
                         Mechanical Engineer turned CrossFit Coach/Owner turned Software Engineer. Living up to the Gemini rep, I am truly a jack-of-all-trades. It's a testament to my adaptability, pursuit of personal growth, and passion for craftsmanship.
@@ -33,7 +34,8 @@ export default class About extends Component {
                 </span>
                 
 
-            </section>
+            </div>
+            </>
         )
     }
 }
