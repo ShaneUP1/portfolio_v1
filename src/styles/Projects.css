@@ -1,0 +1,14 @@
+.projects-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.projects-row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-row-2 {
+  display: flex;
+  justify-content: center;
+}

@@ -11,14 +11,14 @@ export default class About extends Component {
             <div className="about" >
                 <Title title="ABOUT ME" />
                 <span className="about-wrapper">
-                    <Fade style={{display: "flex", justifyContent: "flex-end", paddingRight: "50px"}} duration={1000} delay={500}>
+                <Fade bottom={true} duration={1000} delay={500} style={{display: "flex", justifyContent: "flex-end", paddingRight: "50px"}} >
                         <div>
                         <img className="bio-image"
                             src={shane_portfolio_site}
                             alt="Shane" />
                         </div>
-                    </Fade>
-                    <Fade style={{textAlign: "left", fontSize: "18px"}} duration={1000} delay={600}>
+                </Fade>
+                <Fade bottom={true} style={{textAlign: "left", fontSize: "18px"}} duration={1000} delay={600}>
                         <div className="bio">
                         <p>
                         Mechanical Engineer turned CrossFit Coach/Owner turned Software Engineer. Living up to the Gemini rep, I am truly a jack-of-all-trades. It's a testament to my adaptability, pursuit of personal growth, and passion for craftsmanship.
@@ -30,7 +30,7 @@ export default class About extends Component {
                         When not behind my computer you can find me in the kitchen, at the beach, or on the trail with my wife and son.
                         </p>
                         </div>
-                    </Fade>
+                </Fade>
                 </span>
                 
 

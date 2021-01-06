@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from './components/Main.js';
 import About from './components/About.js';
+import Projects from './components/Projects.js';
 import './styles/App.css';
 
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       < Main />
       < About />
+      < Projects />
     </div>
   );
 }
