@@ -1,14 +1,34 @@
 .projects-wrapper {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.projects-row-1 {
-  display: flex;
-  justify-content: center;
+.project-info {
+  align-self: center;
+  justify-self: center;
 }
 
-.projects-row-2 {
-  display: flex;
-  justify-content: center;
+.project-img {
+  align-self: center;
+}
+
+.row {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+  .projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+  .projects-img {
+    width: 300px;
+  }
+
+  .projects-img {
+    width: 300px;
+  }
 }

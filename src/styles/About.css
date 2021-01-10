@@ -21,6 +21,12 @@
   .about-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .bio {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
   }
 }
 
