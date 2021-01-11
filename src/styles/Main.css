@@ -45,3 +45,11 @@
   text-decoration: none;
   background: #02aab0;
 }
+
+/* @media only screen and (max-width: 760px) {
+  .intro {
+    height: 100vh;
+    text-align: center;
+    margin: 0px;
+  }
+} */

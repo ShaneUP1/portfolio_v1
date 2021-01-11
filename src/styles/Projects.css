@@ -5,12 +5,14 @@
 }
 
 .project-info {
-  align-self: center;
+  align-items: center;
   justify-self: center;
+  font-size: 13pt;
 }
 
 .project-img {
   align-self: center;
+  cursor: pointer;
 }
 
 .row {
@@ -21,14 +23,11 @@
   .projects-wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    column-gap: 100px;
     margin: auto;
   }
 
-  .projects-img {
-    width: 300px;
-  }
-
-  .projects-img {
+  .project-img {
     width: 300px;
   }
 }

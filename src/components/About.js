@@ -11,7 +11,7 @@ export default class About extends Component {
             <div className="about" >
                 <Title title="ABOUT ME" />
                 <span className="about-wrapper">
-                <Fade duration={1000} delay={600} style={{display: "flex", justifyContent: "flex-end", paddingRight: "50px"}} >
+                <Fade duration={1000} delay={600} style={{display: "flex", justifyContent: "flex-end", alignSelf: "center"}} >
                         <div>
                         <img className="bio-image"
                             src={shane_portfolio_site}
