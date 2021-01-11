@@ -33,7 +33,9 @@ export default class Projects extends Component {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}>
                     <div className="row">
+                        <a href='https://sformichella.github.io/t4-xoxo/'>
                         <img className="project-img" src={tictactoe_project} alt='tic-tac-toe project' style={{ boxShadow: "5px 5px 3px gray"}} />
+                        </a>
                     </div>
                     </Tilt>
 
@@ -54,7 +56,9 @@ export default class Projects extends Component {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}>
                     <div className="row">
+                        <a href='https://git-there-api.netlify.app/'>
                         <img className="project-img" src={gitThereAPI_project} alt='gitThere API project' style={{ boxShadow: "5px 5px 3px gray"}}/>
+                        </a>
                     </div>
                     </Tilt>
                     </Fade>
