@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Fade from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import Title from './Title.js';
 import shane_portfolio_site from '../images/shane_portfolio_site.JPG';
 import '../styles/About.css';

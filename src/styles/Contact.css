@@ -1,0 +1,15 @@
+.contact {
+  background-color: #02aab0;
+}
+
+.contact-icon {
+  padding: 15px;
+}
+
+#contact-link:hover {
+  transform: scale(1.5);
+}
+
+.logo-spread {
+  padding-bottom: 25px;
+}
