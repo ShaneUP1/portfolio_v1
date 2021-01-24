@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
-import Fade from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import Title from './Title.js';
 import shane_portfolio_site from '../images/shane_portfolio_site.JPG';
-
+import '../styles/About.css';
 
 export default class About extends Component {
     render() {
         return (
-            <section className="about" >
+            <>
+            <div className="about" >
                 <Title title="ABOUT ME" />
                 <span className="about-wrapper">
-                    <Fade duration={1000} delay={500}>
+                <Fade duration={1000} delay={600} style={{display: "flex", justifyContent: "flex-end", alignSelf: "center"}} >
                         <div>
                         <img className="bio-image"
                             src={shane_portfolio_site}
                             alt="Shane" />
                         </div>
-                    </Fade>
-                    <Fade duration={1000} delay={600}>
+                </Fade>
+                <Fade style={{textAlign: "left", fontSize: "18px"}} duration={1000} delay={400}>
                         <div className="bio">
                         <p>
                         Mechanical Engineer turned CrossFit Coach/Owner turned Software Engineer. Living up to the Gemini rep, I am truly a jack-of-all-trades. It's a testament to my adaptability, pursuit of personal growth, and passion for craftsmanship.
@@ -29,11 +30,12 @@ export default class About extends Component {
                         When not behind my computer you can find me in the kitchen, at the beach, or on the trail with my wife and son.
                         </p>
                         </div>
-                    </Fade>
+                </Fade>
                 </span>
                 
 
-            </section>
+            </div>
+            </>
         )
     }
 }
