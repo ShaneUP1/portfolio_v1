@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Title from './Title.js';
 import '../styles/Tech.css';
-import { Bounce } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import css from '../images/techStack_logos/css-3.svg';
 import html from '../images/techStack_logos/html-5.svg';
 import js from '../images/techStack_logos/javascript.svg';
@@ -14,7 +14,7 @@ export default class Tech extends Component {
     return (
       <div className="tech">
         <Title title="TECH STACK" />
-        <Bounce duration={1000} delay={500}>
+        <Fade direction="up" duration={1000} delay={500}>
         <div className="tech-display">
           <img className="svg-logo"src={html} alt="HTML Logo" />
           <img className="svg-logo"src={js} alt="Javascript Logo" />
@@ -23,7 +23,7 @@ export default class Tech extends Component {
           <img className="svg-logo"src={sql} alt="SQL Logo" />
           <img className="svg-logo"src={react} alt="React Logo" />
         </div>
-        </Bounce>
+        </Fade>
         
       </div>
     )

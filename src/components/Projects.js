@@ -12,14 +12,14 @@ export default class Projects extends Component {
             <div className="projects">
                 < Title title="PROJECTS" />
                 <section className="projects-wrapper" >
-                <Fade duration={1000} delay={500} >
+                <Fade direction="up" duration={1000}>
                     <div className="project-info row">
                         Our re-creation of the classic tic-tac-toe using  javascript, html and css. Local storage is used to maintain state, so users can track their wins, losses, and cats as well as check on a variety of game stats and still return to their game in progress. Two different algorithms were created to offer different difficulty modes.<br></br><br></br>
                         This was a fun one that pushed our limits, forced us to come up with creative ways to manage gameplay, and even surprised us with some unknown "double-win" game results. Give it a try!
                     </div>
                     </Fade>
 
-                    <Fade duration={1000} delay={700} >
+                    <Fade direction="up" duration={1000}>
                         
                     <div className="row">
                     <Tilt 
