@@ -11,15 +11,15 @@ export default class About extends Component {
             <div className="about" >
                 <Title title="ABOUT ME" />
                 <span className="about-wrapper">
-                <Fade duration={1000} delay={600} style={{display: "flex", justifyContent: "flex-end", alignSelf: "center"}} >
+                <Fade duration={1000} delay={400} triggerOnce style={{display: "flex", justifyContent: "flex-end", alignSelf: "center"}} >
                         <div>
                         <img className="bio-image"
                             src={shane_portfolio_site}
                             alt="Shane" />
                         </div>
                 </Fade>
-                <Fade style={{textAlign: "left", fontSize: "18px"}} duration={1000} delay={400}>
-                        <div className="bio">
+                <Fade style={{textAlign: "left", fontSize: "16px"}} triggerOnce duration={1000} delay={400}>
+                        <div className="bio" >
                         <p>
                         Mechanical Engineer turned CrossFit Coach/Owner turned Software Engineer. Living up to the Gemini rep, I am truly a jack-of-all-trades. It's a testament to my adaptability, pursuit of personal growth, and passion for craftsmanship.
                         </p>
