@@ -12,16 +12,16 @@ export default class Projects extends Component {
             <div className="projects">
                 < Title title="PROJECTS" />
                 <section className="projects-wrapper" >
-                <Fade direction="up" duration={1000}>
+                <Fade direction="up" duration={1000} triggerOnce>
                     <div className="project-info row">
                         Our re-creation of the classic tic-tac-toe using  javascript, html and css. Local storage is used to maintain state, so users can track their wins, losses, and cats as well as check on a variety of game stats and still return to their game in progress. Two different algorithms were created to offer different difficulty modes.<br></br><br></br>
                         This was a fun one that pushed our limits, forced us to come up with creative ways to manage gameplay, and even surprised us with some unknown "double-win" game results. Give it a try!
                     </div>
                     </Fade>
 
-                    <Fade direction="up" duration={1000}>
+                    <Fade className="row" direction="up" duration={1000} triggerOnce >
                         
-                    <div className="row">
+                    
                     <Tilt 
                         options={{
                             reverse: false,
@@ -38,7 +38,7 @@ export default class Projects extends Component {
                         <img className="project-img" src={tictactoe_project} alt='tic-tac-toe project' style={{ boxShadow: "5px 5px 3px gray"}} />
                         </a>
                         </Tilt>
-                    </div>
+                    
                     
 
                     <div className="project-info row">

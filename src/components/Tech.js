@@ -8,7 +8,7 @@ export default class Tech extends Component {
     return (
       <div className="tech">
         <Title title="TECH STACK" />
-        <Fade direction="up" duration={1000} delay={500}>
+        <Fade direction="up" duration={1000} delay={500} triggerOnce>
         <div className="tech-display">
           <img className="svg-logo"src='html-5.svg' alt="HTML Logo" />
           <img className="svg-logo"src='javascript.svg' alt="Javascript Logo" />

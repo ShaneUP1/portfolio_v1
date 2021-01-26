@@ -15,7 +15,7 @@ export default class Contact extends Component {
     return (
       <div className="contact">
         <Title title="CONTACT" />
-        < Fade duration={500} delay={200} >
+        < Fade duration={500} delay={200} triggerOnce>
         <h3>Ready to talk? Let's do it!</h3>
         <div className="logo-spread">
           <a className="contact-icon" href="https://github.com/ShaneUP1">

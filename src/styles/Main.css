@@ -1,6 +1,6 @@
 .intro {
   height: 100vh;
-  background: url("../images/mountains.png");
+  background: url("../images/mountains2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,10 +46,12 @@
   background: #02aab0;
 }
 
-/* @media only screen and (max-width: 760px) {
-  .intro {
-    height: 100vh;
-    text-align: center;
-    margin: 0px;
+@media only screen and (max-width: 760px) {
+  .name-title-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    padding-left: 20px;
   }
-} */
+}
