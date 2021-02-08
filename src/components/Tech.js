@@ -18,7 +18,6 @@ export default class Tech extends Component {
           <img className="svg-logo"src='react.svg' alt="React Logo" />
         </div>
         </Fade>
-        
       </div>
     )
   }

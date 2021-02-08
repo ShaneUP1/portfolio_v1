@@ -43,7 +43,7 @@
   .projects-wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 100px;
+    /* column-gap: 100px; */
     margin: auto;
   }
 
@@ -57,6 +57,7 @@
   .project-info {
     width: 300px;
   }
+
   .project-img {
     width: 300px;
   }
