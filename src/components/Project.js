@@ -1,17 +1,16 @@
 import React from 'react';
-import {Projects} from '../Projects-Data';
-import Tilt from 'react-tilt';
-import styles from '../styles/ProjectList.module.css';
+import PropTypes from 'prop-types';
+// import Tilt from 'react-tilt';
+// import styles from '../styles/Project.module.css';
 
-function ProjectList() {
-  const projectElements = Projects.map(project => {
+const Project = ({description, link, image, name}) => {
+ console.log(description)
     return (
       <>
-      <div className={styles.projectDisplay}>
-        <p className={styles.description}>
-          {project.description}
+        <p>
+          {description}
         </p>
-        <Tilt 
+        {/* <Tilt 
            options={{
            reverse: false,
            max: 10,
@@ -22,22 +21,21 @@ function ProjectList() {
            axis: null,
            reset: true,
            easing: 'cubic-bezier(.03,.98,.52,.99)',
-         }}>
-          <a className={styles.image} href={project.link}>
-            <img src={`assets/${project.image}`} alt={project.name}/>
+         }}> */}
+          <a href={link}>
+            <img src={`assets/${image}`} alt={name}/>
           </a>
-        </Tilt>
-      </div>
+        {/* </Tilt> */}
       </>
-    )
-   
-  })
-  
-  return (
-    <>
-      {projectElements}
-    </>
-  )
+    ) 
 }
 
-export default ProjectList;
+Project.propTypes = {
+  description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
+}
+
+
+export default Project;

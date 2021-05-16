@@ -15,7 +15,6 @@ function App() {
       < Main />
       < About />
       <ProjectList />
-      {/* < Projects /> */}
       < Tech />
       < Contact />
     </div>
