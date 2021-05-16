@@ -4,7 +4,7 @@ import About from './components/About.js';
 import Tech from './components/Tech.js';
 import Contact from './components/Contact.js';
 import './styles/App.css';
-import ProjectList from './components/ProjectList.js';
+import ProjectList from './components/MyProjects/ProjectList.js';
 
 
 

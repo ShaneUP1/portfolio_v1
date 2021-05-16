@@ -1,7 +1,8 @@
 import React from 'react'
-import { Projects } from '../Projects-Data'
+import { Projects } from '../../Projects-Data'
 import Project from './Project'
-import styles from '../styles/ProjectList.module.css'
+import Title from '../Title.js'
+import styles from '../../styles/ProjectList.module.css'
 
 const ProjectList = () => {
   console.log(Projects)
@@ -12,9 +13,12 @@ const ProjectList = () => {
   ))
   
   return (
-    <div className={styles.project_list}>
-      {projectElements}
-    </div>
+    <>
+      <Title title="PROJECTS" />
+      <div className={styles.project_list}>
+        {projectElements}
+      </div>
+    </>
   )
 }
 
