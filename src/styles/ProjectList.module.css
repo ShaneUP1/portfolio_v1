@@ -1,18 +1,8 @@
 .project_list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   margin-bottom: 50px;
-}
-
-.description {
-  white-space: pre-wrap;
-  text-align: left;
-  max-width: 700px;
-  margin-right: 30px;
-}
-
-.image {
-  margin-left: 30px;
 }
