@@ -3,12 +3,14 @@ import { Projects } from '../../Projects-Data'
 import Project from './Project'
 import Title from '../Title.js'
 import styles from '../../styles/ProjectList.module.css'
+import { Fade } from 'react-awesome-reveal'
 
 const ProjectList = () => {
-  console.log(Projects)
   const projectElements = Projects.map(project => (
    <div>
-      <Project {...project} />
+      <Fade direction="up" duration={1000} triggerOnce >
+        <Project {...project} />
+      </Fade>
     </div>
   ))
   

@@ -21,9 +21,11 @@ const Project = ({description, link, image, name}) => {
            reset: true,
            easing: 'cubic-bezier(.03,.98,.52,.99)',
          }}>
-          <a href={link}>
-            <img className={styles.image} src={`assets/${image}`} alt={name}/>
-          </a>
+          <div className="img-div">
+            <a href={link}>
+              <img className={styles.image} src={`assets/${image}`} alt={name}/>
+            </a>
+          </div>
         </Tilt>
       </div>
     ) 
